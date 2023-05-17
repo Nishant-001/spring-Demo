@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'springEcom'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AA1F879323AB4C2D8D97022A5B14E051 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE6A107C184B4B4B8DE3170651BC3AD7 }}
           package: '*.war'
