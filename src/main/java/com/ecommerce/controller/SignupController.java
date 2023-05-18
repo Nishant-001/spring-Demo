@@ -14,7 +14,7 @@ import com.ecommerce.dto.SignupRequest;
 import com.ecommerce.entity.User;
 import com.ecommerce.services.user.UserService;
 
-
+@CrossOrigin
 @RestController
 public class SignupController {
 
