@@ -18,6 +18,7 @@ import com.ecommerce.dto.SecondProductDto;
 import com.ecommerce.responce.GeneralResponse;
 import com.ecommerce.services.vendor.VendorService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/admin/")
 public class VendorController {
