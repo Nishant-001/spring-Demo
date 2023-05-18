@@ -9,6 +9,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.ecommerce.services.user.UserService;
 
+@CrossOrigin
 @SpringBootApplication
 public class ECommerceApplication implements CommandLineRunner {
 
