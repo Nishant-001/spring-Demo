@@ -13,6 +13,7 @@ import com.ecommerce.dto.OrderDto;
 import com.ecommerce.responce.GeneralResponse;
 import com.ecommerce.services.order.OrderService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/user/")
 public class OrderController {
