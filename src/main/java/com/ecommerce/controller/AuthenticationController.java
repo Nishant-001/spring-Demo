@@ -26,6 +26,7 @@ import com.ecommerce.services.jwt.UserDetailsServiceImpl;
 import com.ecommerce.services.user.UserService;
 import com.ecommerce.utill.JwtUtil;
 
+@CrossOrigin
 @RestController
 public class AuthenticationController {
 
